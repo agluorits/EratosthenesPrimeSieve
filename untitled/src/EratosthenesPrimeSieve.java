@@ -84,20 +84,14 @@ public class EratosthenesPrimeSieve implements PrimeSieve {
         return false;
     }
 
-    public static void main(String[] args) {
-        /*Scanner scanner = new Scanner(System.in);
-        int input = scanner.nextInt();
-        primeCalculator(input);*/
-        System.out.println(isitPrime(99));
-    }
 
     @Override
     public boolean isPrime(int p) {
-        return false;
+        return isitPrime(p);
     }
 
     @Override
     public void printPrimes() {
-
+        primeCalculator(100);
     }
 }
